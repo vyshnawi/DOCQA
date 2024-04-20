@@ -1,2 +1,2 @@
 import stremlit as st 
-print("Hello World") 
+st.text("Hello World") 
