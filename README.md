@@ -7,7 +7,7 @@ In this project Dataset which is used is Pubmed and different pdf Journals downl
 
 # Getting Started
 Follow below steps for local setup
-1.	Clone the repository from https://github.com/Nehakumari-01988/DOCQA.git
+Clone the repository from https://github.com/Nehakumari-01988/DOCQA.git
 
 
 Data source:
@@ -23,5 +23,5 @@ Notebooks:
 
 Reports:Next-Gen Answers_ Leveraging RAG and LLMs for Enhanced Medical Q&A on PubMed.pdf
 
-requirements.txt     # Python dependencies
+requirements.txt # Python dependencies
  
