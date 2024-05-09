@@ -11,14 +11,14 @@ Clone the repository from https://github.com/Nehakumari-01988/DOCQA.git
 
 
 Data source:
-    pdf: Pdf of Medical Reserach Journals
-    pdf_extracted.csv: Text output extracted from BQ once all PDF was processsed through Data cleansing.
+    data/pdf: Pdf of Medical Reserach Journals
+    data/pdf_extracted.csv: Text output extracted from BQ once all PDF was processsed through Data cleansing.
 
 Notebooks:
-    1. pubmed_capstone_project_Dataset.ipynb:script to download dataset from pubmed and extract textfrom pdf
-    2.Pubmed_capstone_Project_embedding_Indexing_Faissall_mpnet_base_v2:Build Rag using opensource faiss db and gpt4all llm
-    3.Build RAG using cloud storage/geckoembedding/vertex DB
-    4.Pubmed_capstone_Project_embedding_Indexing_Faiss_Faissall_mpnet_base_v2frontend.ipynb:Frontend code using Gradio
+    1. notebooks/pubmed_capstone_project_Dataset.ipynb:script to download dataset from pubmed and extract textfrom pdf
+    2.notebooks/Pubmed_capstone_Project_embedding_Indexing_Faissall_mpnet_base_v2:Build Rag using opensource faiss db and gpt4all llm
+    3.notebooks/Build RAG using cloud storage/geckoembedding/vertex DB
+    4.notebooks/Pubmed_capstone_Project_embedding_Indexing_Faiss_Faissall_mpnet_base_v2frontend.ipynb:Frontend code using Gradio
 
 
 Reports:Next-Gen Answers_ Leveraging RAG and LLMs for Enhanced Medical Q&A on PubMed.pdf
