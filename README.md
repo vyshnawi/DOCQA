@@ -10,25 +10,18 @@ Follow below steps for local setup
 1.	Clone the repository from https://github.com/Nehakumari-01988/DOCQA.git
 
 
-# Machine Learning
+Data source:
+    pdf: Pdf of Medical Reserach Journals
+    pdf_extracted.csv: Text output extracted from BQ once all PDF was processsed through Data cleansing.
 
-Project_Name/
-│
-├── data/
-│   ├── pdf/             : Pdf of Medical Reserach Journals
-│   ├── pdf_extracted.csv/: Text output extracted from BQ once all PDF was processsed through Data cleansing.
-│   ├── external/        # Data from external sources
-│   └── interim/         # Intermediate data transformations
-│
-├── notebooks/  
+Notebooks:
     1. pubmed_capstone_project_Dataset.ipynb:script to download dataset from pubmed and extract textfrom pdf
     2.Pubmed_capstone_Project_embedding_Indexing_Faissall_mpnet_base_v2:Build Rag using opensource faiss db and gpt4all llm
     3.Build RAG using cloud storage/geckoembedding/vertex DB
     4.Pubmed_capstone_Project_embedding_Indexing_Faiss_Faissall_mpnet_base_v2frontend.ipynb:Frontend code using Gradio
 
 
-│
-├── reports/# Next-Gen Answers_ Leveraging RAG and LLMs for Enhanced Medical Q&A on PubMed.pdf
-│
-└── requirements.txt     # Python dependencies
+Reports:Next-Gen Answers_ Leveraging RAG and LLMs for Enhanced Medical Q&A on PubMed.pdf
+
+requirements.txt     # Python dependencies
  
