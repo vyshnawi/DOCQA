@@ -1,35 +1,27 @@
 # Introduction 
-Capstone project on LLM model in medical domain 
+Retrieval Augmented Generation (RAG) is a pattern that works with pretrained Large Language Models (LLM) and your own data to generate responses.
+
+It combines the powers of pretrained dense retrieval and sequence-to-sequence models. RAG models retrieve documents, pass them to a seq2seq model, then marginalize to generate outputs.
+
+In this project Dataset which is used is Pubmed and different pdf Journals downloaded from web.Reference of Dataset is present in Data folder. There is one out.csv which contains text extracted from PDF. This data was extracted and stored in Bigquery because of the size of the data.
 
 # Getting Started
 Follow below steps for local setup
-1.	Clone the repository from https://github.com/vyshnawi/DOCQA
+Clone the repository from https://github.com/Nehakumari-01988/DOCQA.git
 
 
-# Machine Learning
+Data source:
+    data/pdf: Pdf of Medical Reserach Journals
+    data/pdf_extracted.csv: Text output extracted from BQ once all PDF was processsed through Data cleansing.
 
-Project_Name/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   ├── external/        # Data from external sources
-│   └── interim/         # Intermediate data transformations
-│
-├── notebooks/           # Jupyter notebooks
-│
-├── src/                 # Source code
-│   ├── data/            # Data processing scripts
-│   ├── models/          # Machine learning models
-│   ├── utils/           # Utility functions
-│   └── tests/           # Unit tests
-│
-├── experiments/         # Experiment logs, model checkpoints, and outputs
-│
-├── reports/             # Project reports, documentation, and presentations
-│
-└── requirements.txt     # Python dependencies
+Notebooks:
+    1. notebooks/pubmed_capstone_project_Dataset.ipynb:script to download dataset from pubmed and extract textfrom pdf
+    2.notebooks/Pubmed_capstone_Project_embedding_Indexing_Faissall_mpnet_base_v2:Build Rag using opensource faiss db and gpt4all llm
+    3.notebooks/Build RAG using cloud storage/geckoembedding/vertex DB
+    4.notebooks/Pubmed_capstone_Project_embedding_Indexing_Faiss_Faissall_mpnet_base_v2frontend.ipynb:Frontend code using Gradio
 
-# Build and Test
 
-# Contribute
+Reports:Next-Gen Answers_ Leveraging RAG and LLMs for Enhanced Medical Q&A on PubMed.pdf
+
+requirements.txt # Python dependencies
+ 
